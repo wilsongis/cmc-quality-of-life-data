@@ -7,27 +7,27 @@
   "title": "Census Explorer",
   "jurisdiction": "Clarksville/Montgomery County",
   "description": "Exploring neighborhood character, economics, education, engagement, environment, health, housing, safety and transportation.",
-  "qolembedURL": "https://mcmap.org/qol-embed/",
-  "qolreportURL": "https://mcmap.org/qol-report/",
-  "qoldashboardURL": "https://mcmap.org/qol/",
-  "contactForm": "https://mcmap.org/utilities/feedback.php",
-  "contacts": "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
-  "whatsnew": ["28", "36", "45", "46", "47", "62", "63", "64", "65", "66", "67", "74", "79", "80"],
+  "qolembedURL": "https://apsugis.org/qol-embed/",
+  "qolreportURL": "https://apsugis.org/qol-report/",
+  "qoldashboardURL": "https://apsugis.org/census-view/",
+  "contactForm": "http://www.apsugis.org/about-us/#contact-us",
+  "contacts": "wilsonm@apsu.edu,cmcgis@apsu.edu",
+  "whatsnew": [],
   "links": [{
       "href": "http://charlottenc.gov/HNS/CE/CommunityInfo/Pages/QOL.aspx",
       "text": "About"
     },
     {
-      "href": "downloads/qol-data.zip",
+      "href": "downloads/census_data.zip",
       "text": "Download Data"
     },
     {
-      "href": "http://maps.co.mecklenburg.nc.us/openmapping/",
-      "text": "Mecklenburg County Open Mapping"
+      "href": "http://apsugis.org",
+      "text": "APSU GIS Center"
     },
     {
-      "href": "http://clt.charlotte.opendata.arcgis.com/",
-      "text": "City of Charlotte Open Data Portal"
+      "href": "http://apsu-gis.maps.arcgis.com/home/index.html",
+      "text": "APSU GIS Center Data Portal"
     }
   ]
 }

@@ -10,7 +10,7 @@
   "m2": {
     "metric": "2",
     "category": "Totals",
-    "label": "Population",
+    "label": "Men",
     "title": "Population - Male",
     "type": "sum",
     "subtitle": "Total Male Population"
@@ -18,7 +18,7 @@
   "m3": {
     "metric": "3",
     "category": "Totals",
-    "label": "Population",
+    "label": "Women",
     "title": "Population - Female",
     "type": "sum",
     "subtitle": "Total Female Population"
@@ -71,7 +71,6 @@
     "decimals": 1,
     "type": "weighted",
     "world_val": {
-      "y_2010": 37.2,
       "y_2013": 37.6,
       "y_2014": 37.7,
       "y_2015": 37.8,
@@ -88,7 +87,6 @@
     "decimals": 1,
     "type": "weighted",
     "world_val": {
-      "y_2010": 37.2,
       "y_2013": 37.6,
       "y_2014": 37.7,
       "y_2015": 37.8,
@@ -105,7 +103,6 @@
     "decimals": 1,
     "type": "weighted",
     "world_val": {
-      "y_2010": 37.2,
       "y_2013": 37.6,
       "y_2014": 37.7,
       "y_2015": 37.8,
@@ -116,147 +113,140 @@
   },
   "m12": {
     "metric": "12",
-    "category": "Ancestry",
+    "category": "Education",
     "label": "Total",
-    "title": "Ancestry - Single",
+    "title": "Education - Enrolled",
     "type": "sum",
-    "subtitle": "Population with Single Ancestry"
+    "subtitle": "Population Enrolled in School"
   },
   "m13": {
     "metric": "13",
-    "category": "Ancestry",
+    "category": "Education",
     "label": "Total",
-    "title": "Ancestry - Multiple",
+    "title": "Education - Preschool",
     "type": "sum",
-    "subtitle": "Population with Multiple Ancestry"
+    "subtitle": "Population Enrolled in Preschool"
   },
   "m14": {
     "metric": "14",
-    "category": "Citizenship",
-    "label": "Citizen",
-    "title": "Citizenship - US",
-    "type": "sum",
-    "subtitle": "Citizenship - Born in US"
+    "category": "Housing",
+    "label": "Dollars",
+    "prefix": "$",
+    "title": "Median Gross Rent",
+    "type": "weighted",
+    "subtitle": "Median Gross Rent in Dollars"
   },
   "m15": {
     "metric": "15",
-    "category": "Citizenship",
-    "label": "Citizen",
-    "title": "Citizenship - Abroad",
-    "type": "sum",
-    "subtitle": "Citizenship - Born Abroad"
+    "category": "Housing",
+    "label": "Rooms",
+    "title": "Median Number of Rooms",
+    "type": "weighted",
+    "subtitle": "Median Number of rooms in Home"
   },
   "m16": {
     "metric": "16",
-    "category": "Citizenship",
-    "label": "Citizen",
-    "title": "Citizenship - Naturalized",
+    "category": "Housing",
+    "label": "Units",
+    "title": "Units for Rent",
     "type": "sum",
-    "subtitle": "Naturalized Citizen"
+    "subtitle": "Number of Units for Rent"
   },
   "m17": {
     "metric": "17",
-    "category": "Citizenship",
-    "label": "Citizen",
-    "title": "Citizenship - NonCitizen",
+    "category": "Housing",
+    "label": "Units",
+    "title": "Units for Sale",
     "type": "sum",
-    "subtitle": "NonCitizen Resident"
-  },
-  "m30": {
-    "metric": "30",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Place of Origin - US",
-    "type": "sum",
-    "subtitle": "Born in US"
+    "subtitle": "Number of Units for Sale"
   },
   "m18": {
     "metric": "18",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Place of Origin - TN",
+    "category": "Housing",
+    "label": "Units",
+    "title": "Vacant Units",
     "type": "sum",
-    "subtitle": "Born in TN"
+    "subtitle": "Number of Units Vacant"
   },
   "m19": {
     "metric": "19",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Place of Origin - Other States",
+    "category": "Work",
+    "label": "People",
+    "title": "Civilian - Unemployed",
     "type": "sum",
-    "subtitle": "Born in Other States"
+    "subtitle": "Unemployed in the Civilian Workforce"
   },
   "m20": {
     "metric": "20",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Place of Origin - Foreign-Born",
+    "category": "Work",
+    "label": "People",
+    "title": "Armed Forces",
     "type": "sum",
-    "subtitle": "Foreign-Born"
+    "subtitle": "Serving in Armed Forces"
   },
   "m21": {
     "metric": "21",
-    "category": "Age",
-    "label": "Population",
-    "title": "Population - Males Under 18",
+    "category": "Work",
+    "label": "Men",
+    "title": "Management Jobs - Men",
     "type": "sum",
-    "subtitle": "Total Male Population under 18"
+    "subtitle": "Men in Management Business Science and Arts Occupations"
   },
   "m22": {
     "metric": "22",
-    "category": "Age",
-    "label": "Population",
-    "title": "Population - Females Under 18",
+    "category": "Work",
+    "label": "Men",
+    "title": "Service Jobs - Men",
     "type": "sum",
-    "subtitle": "Total Female Population under 18"
+    "subtitle": "Men in Service Occupations"
   },
   "m23": {
     "metric": "23",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Entered US 2010 or After",
+    "category": "Work",
+    "label": "Men",
+    "title": "Sales Jobs - Men",
     "type": "sum",
-    "subtitle": "Foreign-Born"
+    "subtitle": "Men in Sales and Office Occupations"
   },
   "m24": {
     "metric": "24",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Foreign-Born - Europe",
+    "category": "Work",
+    "label": "Men",
+    "title": "Maintenance Jobs - Men",
     "type": "sum",
-    "subtitle": "Born in Europe"
+    "subtitle": "Men in Natural Resources Construction and Maintenance Occupations"
   },
   "m25": {
     "metric": "25",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Foreign-Born - Asia",
+    "category": "Work",
+    "label": "Men",
+    "title": "Production Jobs - Men",
     "type": "sum",
-    "subtitle": "Born in Asia"
+    "subtitle": "Men Production Transportation and Material Moving Occupations"
   },
   "m26": {
     "metric": "26",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Foreign-Born - Africa",
+    "category": "Totals",
+    "label": "Households",
+    "title": "Households - Family",
     "type": "sum",
-    "subtitle": "Born in Africa"
+    "subtitle": "Total Family Households"
   },
   "m27": {
     "metric": "27",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Foreign-Born - Oceania",
+    "category": "Totals",
+    "label": "Households",
+    "title": "Households - Non-Family",
     "type": "sum",
-    "subtitle": "Born in Oceania"
+    "subtitle": "Total Non-Family Households"
   },
   "m28": {
     "metric": "28",
-    "category": "Origin",
-    "label": "Origin",
-    "title": "Foreign-Born - Americas",
+    "category": "Totals",
+    "label": "Households",
+    "title": "Households - Group Quarters",
     "type": "sum",
-    "subtitle": "Born in the Americas"
+    "subtitle": "Total Group Quarter Households"
   },
   "m29": {
     "metric": "29",
@@ -265,5 +255,362 @@
     "title": "Households - Total",
     "type": "sum",
     "subtitle": "Total Households"
+  },
+  "m30": {
+    "metric": "30",
+    "category": "Housing",
+    "label": "Units",
+    "title": "Units - Vacation",
+    "type": "sum",
+    "subtitle": "Number of Seasonal Recreational Or Occasional Use Units"
+  },
+  "m31": {
+    "metric": "31",
+    "category": "Age",
+    "suffix": "%",
+    "decimals": 2,
+    "title": "Percent under 18",
+    "type": "weighted",
+    "subtitle": "Percent of Residents under 18"
+  },
+  "m32": {
+    "metric": "32",
+    "category": "Age",
+    "suffix": "%",
+    "decimals": 2,
+    "title": "Percent over 64",
+    "type": "weighted",
+    "subtitle": "Percent of Residents over 64"
+  },
+  "m33": {
+    "metric": "33",
+    "category": "Character",
+    "label": "Men",
+    "title": "Marital Status - Men Never Married",
+    "type": "sum",
+    "subtitle": "Men that Never Married"
+  },
+  "m34": {
+    "metric": "34",
+    "category": "Character",
+    "label": "Women",
+    "title": "Marital Status - Women Never Married",
+    "type": "sum",
+    "subtitle": "Women that Never Married"
+  },
+  "m35": {
+    "metric": "35",
+    "category": "Character",
+    "label": "Men",
+    "title": "Marital Status - Married Men",
+    "type": "sum",
+    "subtitle": "Men that are Married"
+  },
+  "m36": {
+    "metric": "36",
+    "category": "Character",
+    "label": "Women",
+    "title": "Marital Status - Married Women",
+    "type": "sum",
+    "subtitle": "Women that are Married"
+  },
+  "m37": {
+    "metric": "37",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - GED",
+    "type": "sum",
+    "subtitle": "GED Degree"
+  },
+  "m38": {
+    "metric": "38",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - HS Degree",
+    "type": "sum",
+    "subtitle": "HS Degree"
+  },
+  "m39": {
+    "metric": "39",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - Some College (>= 1yr.)",
+    "type": "sum",
+    "subtitle": "Some College/Associates"
+  },
+  "m40": {
+    "metric": "40",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - Bachelor Degree",
+    "type": "sum",
+    "subtitle": "Bachelor Degree"
+  },
+  "m41": {
+    "metric": "41",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - Masters Degree",
+    "type": "sum",
+    "subtitle": "Graduate Degree"
+  },
+  "m42": {
+    "metric": "42",
+    "category": "Character",
+    "label": "People",
+    "title": "Income Level - No Earnings",
+    "type": "sum",
+    "subtitle": "Number of Individuals with No Earnings"
+  },
+  "m43": {
+    "metric": "43",
+    "category": "Character",
+    "label": "Income Level",
+    "title": "Income Level - <10K",
+    "type": "sum",
+    "subtitle": "Less than 10K Per Year"
+  },
+  "m44": {
+    "metric": "44",
+    "category": "Character",
+    "label": "People",
+    "title": "Income Level - >200K",
+    "type": "sum",
+    "subtitle": "More than 200K Per Year"
+  },
+  "m45": {
+    "metric": "45",
+    "category": "Character",
+    "label": "Income Level",
+    "title": "Income Level - Median",
+    "prefix": "$",
+    "type": "weighted",
+    "subtitle": "Median Income"
+  },
+  "m46": {
+    "metric": "46",
+    "category": "Character",
+    "label": "Income Level",
+    "title": "Income Level - Median Family Income",
+    "prefix": "$",
+    "type": "weighted",
+    "subtitle": "Median Family Income"
+  },
+  "m47": {
+    "metric": "47",
+    "category": "Housing",
+    "label": "Percent",
+    "title": "Gross Rent -Percent",
+    "suffix": "%",
+    "type": "weighted",
+    "subtitle": "Median Gross Rent As A Percentage Of Household Income"
+  },
+  "m48": {
+    "metric": "48",
+    "category": "Character",
+    "label": "People",
+    "title": "Internet Access - Access (Sub)",
+    "type": "sum",
+    "subtitle": "People with an Internet Access Subscription"
+  },
+  "m49": {
+    "metric": "49",
+    "category": "Character",
+    "label": "People",
+    "title": "Internet Access - Access",
+    "type": "sum",
+    "subtitle": "People with an Internet Access (No Subscription)"
+  },
+  "m50": {
+    "metric": "50",
+    "category": "Character",
+    "label": "People",
+    "title": "Internet Access - No Access",
+    "type": "sum",
+    "subtitle": "People without Internet Access"
+  },
+  "m51": {
+    "metric": "51",
+    "category": "Housing",
+    "label": "Year",
+    "title": "Housing - Median Year Built",
+    "type": "weighted",
+    "subtitle": "Median Year Homes were Built"
+  },
+  "m52": {
+    "metric": "52",
+    "category": "Housing",
+    "label": "Housing",
+    "title": "Housing - Owner",
+    "type": "sum",
+    "subtitle": "Owner Occupied"
+  },
+  "m53": {
+    "metric": "53",
+    "category": "Housing",
+    "label": "Housing",
+    "title": "Housing - Renter",
+    "type": "sum",
+    "subtitle": "Renter Occupied"
+  },
+  "m54": {
+    "metric": "54",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Work Transportation - Car",
+    "type": "sum",
+    "subtitle": "Using a Car to go to work"
+  },
+  "m55": {
+    "metric": "55",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Car - Driving Alone",
+    "type": "sum",
+    "subtitle": "Driving alone to go to work"
+  },
+  "m56": {
+    "metric": "56",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Car - Carpooling",
+    "type": "sum",
+    "subtitle": "Driving in carpool to go to work"
+  },
+  "m57": {
+    "metric": "57",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Public Transit",
+    "type": "sum",
+    "subtitle": "Using Public Transit to go to work"
+  },
+  "m58": {
+    "metric": "58",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Bike",
+    "type": "sum",
+    "subtitle": "Taxicab Motorcycle Bicycle or Other Means"
+  },
+  "m59": {
+    "metric": "59",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Walked",
+    "type": "sum",
+    "subtitle": "Walk to go to work"
+  },
+  "m60": {
+    "metric": "60",
+    "category": "Work",
+    "label": "People",
+    "title": "Working at Home",
+    "type": "sum",
+    "subtitle": "Working at Home"
+  },
+  "m61": {
+    "metric": "61",
+    "category": "Work",
+    "label": "People",
+    "title": "Working Outside of Home",
+    "type": "sum",
+    "subtitle": "Working Outside the House"
+  },
+  "m62": {
+    "metric": "62",
+    "category": "Transportation",
+    "label": "People",
+    "title": "Traveling over 60 Minutes",
+    "type": "sum",
+    "subtitle": "People Commuting 60 Minutes or More"
+  },
+  "m63": {
+    "metric": "63",
+    "category": "Housing",
+    "label": "Percent",
+    "title": "Housing as a % of Income",
+    "type": "weighted",
+    "subtitle": "Median Monthly Owner Costs As A Percentage Of Household Income"
+  },
+  "m64": {
+    "metric": "64",
+    "category": "Character",
+    "label": "Households",
+    "title": "1 or More Computers",
+    "type": "sum",
+    "subtitle": "Household has 1 or More Computers"
+  },
+  "m65": {
+    "metric": "65",
+    "category": "Character",
+    "label": "Households",
+    "title": "No Computers",
+    "type": "sum",
+    "subtitle": "No Computers"
+  },
+  "m66": {
+    "metric": "66",
+    "category": "Work",
+    "label": "Women",
+    "title": "Management Jobs - Women",
+    "type": "sum",
+    "subtitle": "Management Business Science and Arts Occupations"
+  },
+  "m67": {
+    "metric": "67",
+    "category": "Work",
+    "label": "Women",
+    "title": "Service Jobs - Women",
+    "type": "sum",
+    "subtitle": "Service Occupations"
+  },
+  "m68": {
+    "metric": "68",
+    "category": "Work",
+    "label": "Women",
+    "title": "Sales Jobs - Women",
+    "type": "sum",
+    "subtitle": "Sales and Office Occupations"
+  },
+  "m69": {
+    "metric": "69",
+    "category": "Work",
+    "label": "Women",
+    "title": "Maintenance Jobs - Women",
+    "type": "sum",
+    "subtitle": "Natural Resources Construction and Maintenance Occupations"
+  },
+  "m70": {
+    "metric": "70",
+    "category": "Work",
+    "label": "Women",
+    "title": "Production Jobs - Women",
+    "type": "sum",
+    "subtitle": "Production Transportation and Material Moving Occupations"
+  },
+  "m71": {
+    "metric": "71",
+    "category": "Work",
+    "label": "Women",
+    "title": "Military Jobs - Women",
+    "type": "sum",
+    "subtitle": "Military Specific Occupations"
+  },
+  "m72": {
+    "metric": "72",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - Professional Degree",
+    "type": "sum",
+    "subtitle": "Professional Degree"
+  },
+  "m73": {
+    "metric": "73",
+    "category": "Education",
+    "label": "Educational Status",
+    "title": "Education - Doctoral Degree",
+    "type": "sum",
+    "subtitle": "Doctoral Degree"
   }
 }
