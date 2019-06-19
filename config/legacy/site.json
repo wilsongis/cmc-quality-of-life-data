@@ -11,33 +11,31 @@
     "qolembedURL": "https://mcmap.org/qol-embed/",
     "menu": {
         "About": {
-            "links": [
-                {
+            "links": [{
                     "href": "downloads/dimensiononepage.pdf",
                     "text": "What is in the Dashboard"
                 },
                 {
-                    "href": "http://qol.charmeck.org/",
+                    "href": " http://www.apsugis.org/census-viewer/",
                     "text": "About the Project"
                 }
             ]
         },
         "Get Data": {
-            "links": [
-                {
+            "links": [{
                     "href": "downloads/qol-data.zip",
-                    "text": "Download the Quality of Life Dataset"
+                    "text": "Download the Census Datasets"
                 },
                 {
                     "divider": true
                 },
                 {
-                    "href": "http://maps.co.mecklenburg.nc.us/openmapping/",
-                    "text": "Mecklenburg County Open Mapping"
+                    "href": "http://apsugis.org",
+                    "text": "Austin Peay State University GIS Center"
                 },
                 {
-                    "href": "http://clt.charlotte.opendata.arcgis.com/",
-                    "text": "City of Charlotte Open Data Portal"
+                    "href": "http://apsugis.org/maps",
+                    "text": "APSU GIS Maps"
                 }
             ]
         }

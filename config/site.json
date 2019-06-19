@@ -7,14 +7,14 @@
   "title": "Census Explorer",
   "jurisdiction": "Clarksville/Montgomery County",
   "description": "The Census Viewer allows residents of Clarksville-Montgomery County to explore American Community Survey Data for 2013-2017.",
-  "qolembedURL": "https://apsugis.org/qol-embed/",
-  "qolreportURL": "https://apsugis.org/qol-report/",
-  "qoldashboardURL": "https://apsugis.org/census-view/",
+  "qolembedURL": "http://apnsgis2.apsu.edu/cv-embed/",
+  "qolreportURL": "http://apnsgis2.apsu.edu/cv-report/",
+  "qoldashboardURL": "http://apnsgis2.apsu.edu/censusMap",
   "contactForm": "http://www.apsugis.org/about-us/#contact-us",
   "contacts": "wilsonm@apsu.edu,cmcgis@apsu.edu",
   "whatsnew": [],
   "links": [{
-      "href": "http://charlottenc.gov/HNS/CE/CommunityInfo/Pages/QOL.aspx",
+      "href": " http://www.apsugis.org/census-viewer/",
       "text": "About"
     },
     {

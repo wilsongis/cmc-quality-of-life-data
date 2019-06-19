@@ -101,7 +101,7 @@ Use this to specify subgroups, like towns or political entities, with each group
   // links to go in dashboard footer
   "links": [
     {
-      "href": "http://charlottenc.gov/HNS/CE/CommunityInfo/Pages/QOL.aspx",
+      "href": " http://www.apsugis.org/census-viewer/",
       "text": "About"
     },
     {

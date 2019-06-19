@@ -61,8 +61,8 @@ var customGeography = {
 // Server-side processor for feedback.
 // Post arguments passed to the server: email, url, agent (browser info), subject, to, message
 var contactConfig = {
-    "to": "tobin.bradley@gmail.com,qualityoflife@charlottenc.gov",
-    "url": "/utilities/feedback.php"
+    "to": "wilsonm@apsu.edu",
+    "url": "http://www.apsugis.org/about-us/#__contact-us"
 };
 
 // The min and max zoom for you map
