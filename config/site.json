@@ -1,19 +1,20 @@
 {
   "neighborhoodDescriptor": "CBG",
-  "neighborhoodDefinition": "A Census Block Group (CBG) is a geographical unit used by the United States Census Bureau which is between the Census Tract and the Census Block. It is the smallest geographical unit for which the bureau publishes sample data, i.e. data which is only collected from a fraction of all households. Typically, Block Groups have a population of 600 to 3,000 people.",
+  "neighborhroodDefinition": "A Census Block Group (CBG) is a geographical unit used by the United States Census Bureau which is between the Census Tract and the Census Block. It is the smallest geographical unit for which the bureau publishes sample data, i.e. data which is only collected from a fraction of all households. Typically, Block Groups have a population of 600 to 3,000 people.",
   "gaKey": "UA-48797957-1",
   "keywords": "GIS,Montgomery County, Census, Census Viewer, Clarksville",
   "author": "Michael Wilson",
   "title": "Census Explorer",
   "jurisdiction": "Clarksville/Montgomery County",
   "description": "The Census Viewer allows residents of Clarksville-Montgomery County to explore American Community Survey Data for 2013-2017.",
-  "qolembedURL": "http://apnsgis2.apsu.edu/cv-embed/",
-  "qolreportURL": "http://apnsgis2.apsu.edu/cv-report/",
-  "qoldashboardURL": "http://apnsgis2.apsu.edu/censusMap",
+  "qolembedURL": null,
+  "qolreportURL": null,
+  "qoldashboardURL": "http://census.apsugis.org",
   "contactForm": "http://www.apsugis.org/about-us/#contact-us",
   "contacts": "wilsonm@apsu.edu,cmcgis@apsu.edu",
   "whatsnew": [],
   "links": [{
+
       "href": " http://www.apsugis.org/census-viewer/",
       "text": "About"
     },
